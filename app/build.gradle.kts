@@ -59,6 +59,13 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
+
+    // Fused Location Provider by (Google Play services)
+    implementation("com.google.android.gms:play-services-location:21.3.0")
+
+    // Accompanist Permission Handler
+    implementation("com.google.accompanist:accompanist-permissions:0.35.1-alpha")
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">LocateU</string>
+    <string name="permission_required_title">Permission required!</string>
+    <string name="rationale_msg">To get the current location, We need to the location permission</string>
+    <string name="btn_continue">Continue</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="allow_permission">Allow Permission</string>
+    <string name="permission_display">LocateU needs your location permission.</string>
+    <string name="permission_settings">Go to permission Settings</string>
 </resources>
